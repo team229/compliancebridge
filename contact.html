@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ComplianceBridge Advisory</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#111827', // Gray 900
+                        accent: '#D97706', // Amber 600
+                        'accent-hover': '#B45309', // Amber 700
+                        'light-bg': '#F9FAFB', // Gray 50
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-700 antialiased flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-primary text-white py-6">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-serif font-bold tracking-wide">
+                Compliance<span class="text-accent">Bridge</span> Advisory
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wider">
+                <a href="index.html" class="hover:text-accent transition-colors">HOME</a>
+                <a href="about.html" class="hover:text-accent transition-colors">ABOUT THE FIRM</a>
+                <a href="practice-areas.html" class="hover:text-accent transition-colors">PRACTICE AREAS</a>
+                <a href="industries.html" class="hover:text-accent transition-colors">INDUSTRIES</a>
+                <a href="insights.html" class="hover:text-accent transition-colors">INSIGHTS</a>
+                <a href="contact.html" class="text-accent transition-colors">CONTACT</a>
+                <a href="tel:8860307807" class="hover:text-accent transition-colors">CALL</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+            
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">HOME</a>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">ABOUT THE FIRM</a>
+                <a href="practice-areas.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">PRACTICE AREAS</a>
+                <a href="industries.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">INDUSTRIES</a>
+                <a href="insights.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">INSIGHTS</a>
+                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">CONTACT</a>
+                <a href="tel:8860307807" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">CALL</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white pt-16 pb-24">
+        <div class="container mx-auto px-6 max-w-4xl text-left">
+            <h1 class="text-4xl md:text-5xl font-serif font-medium leading-tight mb-6">
+                Contact
+            </h1>
+            <p class="text-gray-300 text-lg mb-6 max-w-2xl leading-relaxed">
+                Connect with our team for compliance and governance advisory
+            </p>
+            <div class="w-20 h-1 bg-accent"></div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-16">
+                
+                <!-- Left Column: Contact Info -->
+                <div class="lg:w-1/3">
+                    <h3 class="text-2xl font-serif text-primary mb-8">Get in Touch</h3>
+                    
+                    <div class="space-y-8 mb-12">
+                        <div class="flex gap-4">
+                            <div class="text-accent shrink-0"><i data-lucide="mail" class="w-6 h-6"></i></div>
+                            <div>
+                                <div class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Email</div>
+                                <a href="mailto:info@compliancebridgeadvisory.com" class="text-primary hover:text-accent transition-colors">info@compliancebridgeadvisory.com</a>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="text-accent shrink-0"><i data-lucide="phone" class="w-6 h-6"></i></div>
+                            <div>
+                                <div class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Phone</div>
+                                <p class="text-primary">+91 8860307807, +91 92055 54328</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="text-accent shrink-0"><i data-lucide="map-pin" class="w-6 h-6"></i></div>
+                            <div>
+                                <div class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Office</div>
+                                <p class="text-primary leading-relaxed">
+                                    Nehru Place, delhi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-100 p-6 rounded-sm text-sm text-gray-600 leading-relaxed">
+                        Initial consultations are conducted on a confidential basis. All communications are treated with professional discretion.
+                    </div>
+                </div>
+
+                <!-- Right Column: Form -->
+                <div class="lg:w-2/3 bg-white border border-gray-200 p-8 md:p-12 shadow-sm">
+                    <h3 class="text-2xl font-serif text-primary mb-2">Send an Inquiry</h3>
+                    <p class="text-gray-500 mb-8 text-sm">Please provide details about your inquiry and we will respond within 24-48 hours.</p>
+                    
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Name <span class="text-accent">*</span></label>
+                                <input type="text" class="w-full border border-gray-300 px-4 py-3 rounded-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="Full Name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Organization</label>
+                                <input type="text" class="w-full border border-gray-300 px-4 py-3 rounded-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="Company/Organization Name">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email <span class="text-accent">*</span></label>
+                                <input type="email" class="w-full border border-gray-300 px-4 py-3 rounded-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="email@example.com">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                                <input type="tel" class="w-full border border-gray-300 px-4 py-3 rounded-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Subject <span class="text-accent">*</span></label>
+                            <select class="w-full border border-gray-300 px-4 py-3 rounded-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors bg-white">
+                                <option>Select a subject</option>
+                                <option>Company Law Advisory</option>
+                                <option>Corporate Governance</option>
+                                <option>FEMA / RBI Matters</option>
+                                <option>NBFC Compliance</option>
+                                <option>Other Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Message <span class="text-accent">*</span></label>
+                            <textarea rows="4" class="w-full border border-gray-300 px-4 py-3 rounded-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="Please describe your inquiry in detail..."></textarea>
+                        </div>
+
+                        <button type="submit" class="bg-primary hover:bg-gray-800 text-white font-medium px-8 py-3 transition-colors inline-block tracking-wide text-sm uppercase">
+                            Submit Inquiry
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0B1120] text-gray-400 py-16 text-sm border-t border-gray-800 mt-auto">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="md:col-span-1">
+                <div class="text-white text-lg font-serif font-bold mb-6">
+                    Compliance<span class="text-accent">Bridge</span> Advisory
+                </div>
+                <p class="leading-relaxed mb-6">
+                    A full-service Company Secretarial, Corporate Governance, and Regulatory Advisory Firm with over 30 years of combined professional experience.
+                </p>
+                <p>© 2026 ComplianceBridge Advisory. All rights reserved.</p>
+            </div>
+            
+            <div class="md:col-span-1"></div>
+
+            <div class="md:col-span-1">
+                <h4 class="text-white font-bold uppercase tracking-wider mb-6">Quick Links</h4>
+                <ul class="space-y-3">
+                    <li><a href="about.html" class="hover:text-white transition-colors">About the Firm</a></li>
+                    <li><a href="practice-areas.html" class="hover:text-white transition-colors">Practice Areas</a></li>
+                    <li><a href="industries.html" class="hover:text-white transition-colors">Industries Served</a></li>
+                    <li><a href="insights.html" class="hover:text-white transition-colors">Insights & Updates</a></li>
+                    <li><a href="contact.html" class="text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-1">
+                <h4 class="text-white font-bold uppercase tracking-wider mb-6">Contact</h4>
+                <div class="mb-4">
+                    <div class="text-xs uppercase tracking-wide mb-1 text-gray-500">Email</div>
+                    <a href="mailto:info@compliancebridgeadvisory.com" class="hover:text-white transition-colors">info@compliancebridgeadvisory.com</a>
+                </div>
+                <div>
+                    <div class="text-xs uppercase tracking-wide mb-1 text-gray-500">Office</div>
+                    <p>Nehru Place, delhi</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-xs text-gray-600 text-center">
+            The information provided on this website is for general informational purposes only and does not constitute legal advice.
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

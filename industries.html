@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industries Served - ComplianceBridge Advisory</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#111827', // Gray 900
+                        accent: '#D97706', // Amber 600
+                        'accent-hover': '#B45309', // Amber 700
+                        'light-bg': '#F9FAFB', // Gray 50
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-700 antialiased flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-primary text-white py-6">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-serif font-bold tracking-wide">
+                Compliance<span class="text-accent">Bridge</span> Advisory
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wider">
+                <a href="index.html" class="hover:text-accent transition-colors">HOME</a>
+                <a href="about.html" class="hover:text-accent transition-colors">ABOUT THE FIRM</a>
+                <a href="practice-areas.html" class="hover:text-accent transition-colors">PRACTICE AREAS</a>
+                <a href="industries.html" class="text-accent transition-colors">INDUSTRIES</a>
+                <a href="insights.html" class="hover:text-accent transition-colors">INSIGHTS</a>
+                <a href="contact.html" class="hover:text-accent transition-colors">CONTACT</a>
+                <a href="tel:8860307807" class="hover:text-accent transition-colors">CALL</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">HOME</a>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">ABOUT THE FIRM</a>
+                <a href="practice-areas.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">PRACTICE AREAS</a>
+                <a href="industries.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">INDUSTRIES</a>
+                <a href="insights.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">INSIGHTS</a>
+                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">CONTACT</a>
+                <a href="tel:8860307807" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">CALL</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white pt-16 pb-24">
+        <div class="container mx-auto px-6 max-w-4xl text-left">
+            <h1 class="text-4xl md:text-5xl font-serif font-medium leading-tight mb-6">
+                Industries Served
+            </h1>
+            <p class="text-gray-300 text-lg mb-6 max-w-2xl leading-relaxed">
+                Deep sector expertise enabling tailored compliance and governance solutions
+            </p>
+            <div class="w-20 h-1 bg-accent"></div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="space-y-8">
+                
+                <!-- Card 1 -->
+                <div class="border border-gray-200 p-8 flex flex-col md:flex-row gap-8 items-start hover:shadow-lg transition-shadow">
+                    <div class="flex flex-col items-center gap-2 shrink-0 w-24">
+                        <i data-lucide="scroll-text" class="w-12 h-12 text-accent stroke-1"></i>
+                        <span class="text-xs text-gray-400 font-medium">01</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-serif text-primary mb-3">Private Equity and Investment-Backed Structures</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Advisory support for private equity funds, venture capital entities, and investment-backed corporate structures navigating complex regulatory requirements across multiple jurisdictions.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="border border-gray-200 p-8 flex flex-col md:flex-row gap-8 items-start hover:shadow-lg transition-shadow">
+                    <div class="flex flex-col items-center gap-2 shrink-0 w-24">
+                        <i data-lucide="factory" class="w-12 h-12 text-accent stroke-1"></i>
+                        <span class="text-xs text-gray-400 font-medium">02</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-serif text-primary mb-3">Manufacturing and Industrial Enterprises</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Comprehensive compliance and governance support for manufacturing entities, including labour law compliance, environmental regulations, and corporate governance frameworks.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="border border-gray-200 p-8 flex flex-col md:flex-row gap-8 items-start hover:shadow-lg transition-shadow">
+                    <div class="flex flex-col items-center gap-2 shrink-0 w-24">
+                        <i data-lucide="landmark" class="w-12 h-12 text-accent stroke-1"></i>
+                        <span class="text-xs text-gray-400 font-medium">03</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-serif text-primary mb-3">NBFCs and Financial Services</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Specialized advisory for Non-Banking Financial Companies and regulated financial entities, ensuring alignment with RBI requirements, prudential norms, and governance standards.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="border border-gray-200 p-8 flex flex-col md:flex-row gap-8 items-start hover:shadow-lg transition-shadow">
+                    <div class="flex flex-col items-center gap-2 shrink-0 w-24">
+                        <i data-lucide="rocket" class="w-12 h-12 text-accent stroke-1"></i>
+                        <span class="text-xs text-gray-400 font-medium">04</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-serif text-primary mb-3">Startups and Emerging Businesses</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            End-to-end compliance management for startups and growth-stage companies, enabling founders to focus on business growth while meeting all regulatory obligations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="border border-gray-200 p-8 flex flex-col md:flex-row gap-8 items-start hover:shadow-lg transition-shadow">
+                    <div class="flex flex-col items-center gap-2 shrink-0 w-24">
+                        <i data-lucide="heart" class="w-12 h-12 text-accent stroke-1"></i>
+                        <span class="text-xs text-gray-400 font-medium">05</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-serif text-primary mb-3">NGOs and Section 8 Companies</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Governance and compliance support for non-profit organizations, including registration, ongoing compliance, CSR implementation partnerships, and regulatory filings.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Text -->
+    <section class="bg-gray-100 py-16 text-center">
+        <div class="container mx-auto px-6">
+            <h3 class="text-2xl font-serif text-primary mb-4">Sector-Specific Advisory</h3>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Our team understands the unique regulatory landscapes of each industry. Contact us to discuss how we can support your sector-specific compliance needs.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0B1120] text-gray-400 py-16 text-sm border-t border-gray-800 mt-auto">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="md:col-span-1">
+                <div class="text-white text-lg font-serif font-bold mb-6">
+                    Compliance<span class="text-accent">Bridge</span> Advisory
+                </div>
+                <p class="leading-relaxed mb-6">
+                    A full-service Company Secretarial, Corporate Governance, and Regulatory Advisory Firm with over 30 years of combined professional experience.
+                </p>
+                <p>© 2026 ComplianceBridge Advisory. All rights reserved.</p>
+            </div>
+            
+            <div class="md:col-span-1"></div>
+
+            <div class="md:col-span-1">
+                <h4 class="text-white font-bold uppercase tracking-wider mb-6">Quick Links</h4>
+                <ul class="space-y-3">
+                    <li><a href="about.html" class="hover:text-white transition-colors">About the Firm</a></li>
+                    <li><a href="practice-areas.html" class="hover:text-white transition-colors">Practice Areas</a></li>
+                    <li><a href="industries.html" class="text-white transition-colors">Industries Served</a></li>
+                    <li><a href="insights.html" class="hover:text-white transition-colors">Insights & Updates</a></li>
+                    <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-1">
+                <h4 class="text-white font-bold uppercase tracking-wider mb-6">Contact</h4>
+                <div class="mb-4">
+                    <div class="text-xs uppercase tracking-wide mb-1 text-gray-500">Email</div>
+                    <a href="mailto:info@compliancebridgeadvisory.com" class="hover:text-white transition-colors">info@compliancebridgeadvisory.com</a>
+                </div>
+                <div>
+                    <div class="text-xs uppercase tracking-wide mb-1 text-gray-500">Office</div>
+                    <p>Nehru Place, delhi</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-xs text-gray-600 text-center">
+            The information provided on this website is for general informational purposes only and does not constitute legal advice.
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

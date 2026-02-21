@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Areas - ComplianceBridge Advisory</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#111827', // Gray 900
+                        accent: '#D97706', // Amber 600
+                        'accent-hover': '#B45309', // Amber 700
+                        'light-bg': '#F9FAFB', // Gray 50
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-700 antialiased flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-primary text-white py-6">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-serif font-bold tracking-wide">
+                Compliance<span class="text-accent">Bridge</span> Advisory
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wider">
+                <a href="index.html" class="hover:text-accent transition-colors">HOME</a>
+                <a href="about.html" class="hover:text-accent transition-colors">ABOUT THE FIRM</a>
+                <a href="practice-areas.html" class="text-accent transition-colors">PRACTICE AREAS</a>
+                <a href="industries.html" class="hover:text-accent transition-colors">INDUSTRIES</a>
+                <a href="insights.html" class="hover:text-accent transition-colors">INSIGHTS</a>
+                <a href="contact.html" class="hover:text-accent transition-colors">CONTACT</a>
+                <a href="tel:8860307807" class="hover:text-accent transition-colors">CALL</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">HOME</a>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">ABOUT THE FIRM</a>
+                <a href="practice-areas.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">PRACTICE AREAS</a>
+                <a href="industries.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">INDUSTRIES</a>
+                <a href="insights.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">INSIGHTS</a>
+                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">CONTACT</a>
+                <a href="tel:8860307807" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-accent hover:bg-gray-700">CALL</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white pt-16 pb-24">
+        <div class="container mx-auto px-6 max-w-4xl text-left">
+            <h1 class="text-4xl md:text-5xl font-serif font-medium leading-tight mb-6">
+                Practice Areas
+            </h1>
+            <p class="text-gray-300 text-lg mb-6 max-w-2xl leading-relaxed">
+                Comprehensive advisory services across corporate law, governance, and regulatory compliance
+            </p>
+            <div class="w-20 h-1 bg-accent"></div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="space-y-16">
+                
+                <!-- Item 1 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">01</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">Company Law & Secretarial Practice</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Incorporation and structuring of Companies, LLPs, and foreign entities (LO/BO/PO)</li>
+                            <li>End-to-end ROC compliances, statutory disclosures, and maintenance of records and registers</li>
+                            <li>Alteration of MOA & AOA, capital restructuring, rights issues, private placements, ESOPs, buybacks, and other corporate actions</li>
+                            <li>Appointment, resignation, and remuneration matters of Directors, Auditors, and Key Managerial Personnel (KMP)</li>
+                            <li>Convening and conducting of Board Meetings, General Meetings, and Committees, including drafting of notices, agendas, and minutes</li>
+                            <li>Voluntary liquidation, strike-off, revival, and closure of entities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">02</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">Corporate Governance & Board Advisory</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Governance framework design and implementation</li>
+                            <li>Board effectiveness and compliance advisory</li>
+                            <li>Drafting and review of Board Charters, Codes of Conduct, Governance Policies, and Internal Controls</li>
+                            <li>Secretarial audits, governance audits, and compliance risk assessments</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">03</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">FEMA, RBI & Cross-Border Regulatory Advisory</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Foreign Direct Investment (FDI) structuring and reporting</li>
+                            <li>RBI Filings including FC-GPR, FC-TRS, downstream investments, and FLA returns</li>
+                            <li>External Commercial Borrowings (ECB) advisory and ongoing compliance</li>
+                            <li>Compounding of contraventions under FEMA</li>
+                            <li>Cross-border transaction support and regulatory coordination</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">04</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">NBFC & Financial Services Compliance</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Advisory and ongoing compliance support for NBFCs and regulated Financial entities</li>
+                            <li>RBI regulatory filings, disclosures, and governance requirements</li>
+                            <li>Assistance with restructuring, investments, and regulatory reporting</li>
+                            <li>Compliance oversight aligned with prudential and governance norms</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">05</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">CSR, ESG & Sustainability Advisory</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>CSR applicability analysis and compliance under the Companies Act, 2013</li>
+                            <li>Preparation of CSR policies, project reports, budgets, and impact documentation</li>
+                            <li>Ongoing CSR reporting and statutory disclosures</li>
+                            <li>Advisory support for NGOs and implementing agencies</li>
+                            <li>ESG-linked governance and disclosure advisory</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">06</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">Labour Laws & Employment Compliance</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Advisory on key labour and employment laws applicable to corporates</li>
+                            <li>Structuring and periodic compliance support for workforce-related regulations</li>
+                            <li>Drafting and vetting of employment policies, POSH policies, and employee handbooks</li>
+                            <li>Compliance alignment for manufacturing and service sector entities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">07</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">Transaction Support, Due Diligence & Documentation</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Legal and secretarial due diligence for investments, acquisitions, and restructurings</li>
+                            <li>Transaction documentation support including SPAs, BTAs, shareholders' agreements, and ancillary documents</li>
+                            <li>Pre- and post-transaction regulatory compliances under applicable laws</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Item 8 -->
+                 <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">08</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">Indirect Tax & Regulatory Coordination</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Coordination and compliance support for GST and other indirect tax matters</li>
+                            <li>Integration of tax compliances with corporate and regulatory obligations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="flex flex-col md:flex-row gap-8 items-start pt-16 border-t border-gray-100">
+                    <div class="text-accent font-serif text-3xl font-bold bg-orange-50 w-16 h-16 flex items-center justify-center rounded-sm shrink-0">09</div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-primary mb-4">Startup, Investment & Growth Advisory</h3>
+                        <ul class="space-y-2 text-gray-600 list-disc pl-5">
+                            <li>Angel investments and early-stage funding advisory</li>
+                            <li>Venture capital transaction support</li>
+                            <li>Corporate and investment structuring</li>
+                            <li>Data privacy and fintech regulatory frameworks</li>
+                            <li>End-to-end compliance management enabling founders to focus on business growth</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0B1120] text-gray-400 py-16 text-sm border-t border-gray-800 mt-auto">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="md:col-span-1">
+                <div class="text-white text-lg font-serif font-bold mb-6">
+                    Compliance<span class="text-accent">Bridge</span> Advisory
+                </div>
+                <p class="leading-relaxed mb-6">
+                    A full-service Company Secretarial, Corporate Governance, and Regulatory Advisory Firm with over 30 years of combined professional experience.
+                </p>
+                <p>© 2026 ComplianceBridge Advisory. All rights reserved.</p>
+            </div>
+            
+            <div class="md:col-span-1"></div>
+
+            <div class="md:col-span-1">
+                <h4 class="text-white font-bold uppercase tracking-wider mb-6">Quick Links</h4>
+                <ul class="space-y-3">
+                    <li><a href="about.html" class="hover:text-white transition-colors">About the Firm</a></li>
+                    <li><a href="practice-areas.html" class="text-white transition-colors">Practice Areas</a></li>
+                    <li><a href="industries.html" class="hover:text-white transition-colors">Industries Served</a></li>
+                    <li><a href="insights.html" class="hover:text-white transition-colors">Insights & Updates</a></li>
+                    <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-1">
+                <h4 class="text-white font-bold uppercase tracking-wider mb-6">Contact</h4>
+                <div class="mb-4">
+                    <div class="text-xs uppercase tracking-wide mb-1 text-gray-500">Email</div>
+                    <a href="mailto:info@compliancebridgeadvisory.com" class="hover:text-white transition-colors">info@compliancebridgeadvisory.com</a>
+                </div>
+                <div>
+                    <div class="text-xs uppercase tracking-wide mb-1 text-gray-500">Office</div>
+                    <p>Nehru Place, delhi</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-xs text-gray-600 text-center">
+            The information provided on this website is for general informational purposes only and does not constitute legal advice.
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
