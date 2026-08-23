@@ -1,0 +1,30 @@
+# ComplianceBridge Advisory - robots.txt
+# https://compliancebridgeadvisory.com/
+
+User-agent: *
+Allow: /
+
+# Disallow admin/utility paths
+Disallow: /cdn-cgi/
+
+# Sitemap
+Sitemap: https://compliancebridgeadvisory.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
