@@ -1,0 +1,95 @@
+{
+  "date": "2026-08-25",
+  "total_targets": 21,
+  "high_priority": 12,
+  "medium_priority": 6,
+  "low_priority": 3,
+  "top_targets": [
+    {
+      "name": "TechCrunch India",
+      "url": "https://techcrunch.com/tag/india",
+      "da": 92,
+      "type": "news",
+      "category": "Startup & Tech Publications",
+      "priority": "high"
+    },
+    {
+      "name": "Economic Times Legal",
+      "url": "https://economictimes.indiatimes.com/legal",
+      "da": 85,
+      "type": "news",
+      "category": "Legal & Compliance Publications",
+      "priority": "high"
+    },
+    {
+      "name": "MoneyControl",
+      "url": "https://www.moneycontrol.com",
+      "da": 85,
+      "type": "news",
+      "category": "Business & Finance Publications",
+      "priority": "high"
+    },
+    {
+      "name": "SHRM India",
+      "url": "https://www.shrm.org",
+      "da": 85,
+      "type": "association",
+      "category": "HR & Labour Publications",
+      "priority": "high"
+    },
+    {
+      "name": "LiveMint Legal",
+      "url": "https://www.livemint.com/legal",
+      "da": 82,
+      "type": "news",
+      "category": "Legal & Compliance Publications",
+      "priority": "high"
+    },
+    {
+      "name": "Forbes India",
+      "url": "https://www.forbesindia.com",
+      "da": 82,
+      "type": "news",
+      "category": "Business & Finance Publications",
+      "priority": "high"
+    },
+    {
+      "name": "Business Today",
+      "url": "https://www.businesstoday.in",
+      "da": 80,
+      "type": "news",
+      "category": "Business & Finance Publications",
+      "priority": "high"
+    },
+    {
+      "name": "Chambers and Partners",
+      "url": "https://www.chambers.com",
+      "da": 78,
+      "type": "directory",
+      "category": "Legal & Compliance Publications",
+      "priority": "high"
+    },
+    {
+      "name": "Legal500",
+      "url": "https://www.legal500.com",
+      "da": 75,
+      "type": "directory",
+      "category": "Legal & Compliance Publications",
+      "priority": "high"
+    },
+    {
+      "name": "YourStory",
+      "url": "https://yourstory.com",
+      "da": 72,
+      "type": "publication",
+      "category": "Business & Finance Publications",
+      "priority": "high"
+    }
+  ],
+  "templates": [
+    "guest_post",
+    "resource_page",
+    "broken_link",
+    "expert_comment"
+  ]
+}

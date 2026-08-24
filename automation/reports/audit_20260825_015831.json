@@ -1,0 +1,327 @@
+{
+  "audit_date": "2026-08-25T01:58:31.158617",
+  "stats": {
+    "total_pages": 33,
+    "pages_with_title": 0,
+    "pages_with_meta_desc": 5,
+    "pages_with_canonical": 33,
+    "pages_with_schema": 33,
+    "pages_with_h1": 33,
+    "pages_with_og": 33,
+    "pages_with_twitter": 33,
+    "pages_with_breadcrumb": 24,
+    "pages_with_faq": 27
+  },
+  "issues": [
+    [
+      "corporate-secretarial.html",
+      "WARNING",
+      "Title too long (95 chars)"
+    ],
+    [
+      "corporate-secretarial.html",
+      "WARNING",
+      "Meta description too long (165 chars)"
+    ],
+    [
+      "annual-compliance.html",
+      "WARNING",
+      "Title too long (95 chars)"
+    ],
+    [
+      "annual-compliance.html",
+      "WARNING",
+      "Meta description too long (169 chars)"
+    ],
+    [
+      "posh-compliance.html",
+      "WARNING",
+      "Title too long (83 chars)"
+    ],
+    [
+      "posh-compliance.html",
+      "WARNING",
+      "Meta description too long (167 chars)"
+    ],
+    [
+      "brsr-advisory.html",
+      "WARNING",
+      "Title too long (96 chars)"
+    ],
+    [
+      "practice-areas.html",
+      "WARNING",
+      "Title too long (80 chars)"
+    ],
+    [
+      "practice-areas.html",
+      "WARNING",
+      "Meta description too long (179 chars)"
+    ],
+    [
+      "company-incorporation.html",
+      "WARNING",
+      "Title too long (103 chars)"
+    ],
+    [
+      "company-incorporation.html",
+      "WARNING",
+      "Meta description too long (188 chars)"
+    ],
+    [
+      "industries.html",
+      "WARNING",
+      "Title too long (93 chars)"
+    ],
+    [
+      "industries.html",
+      "WARNING",
+      "Meta description too long (173 chars)"
+    ],
+    [
+      "index.html",
+      "WARNING",
+      "Title too long (81 chars)"
+    ],
+    [
+      "index.html",
+      "WARNING",
+      "Meta description too long (221 chars)"
+    ],
+    [
+      "lei-registration.html",
+      "WARNING",
+      "Title too long (100 chars)"
+    ],
+    [
+      "lei-registration.html",
+      "WARNING",
+      "Meta description too long (171 chars)"
+    ],
+    [
+      "share-transfer.html",
+      "WARNING",
+      "Title too long (94 chars)"
+    ],
+    [
+      "share-transfer.html",
+      "WARNING",
+      "Meta description too long (190 chars)"
+    ],
+    [
+      "roc-compliance.html",
+      "WARNING",
+      "Title too long (89 chars)"
+    ],
+    [
+      "about.html",
+      "WARNING",
+      "Title too long (65 chars)"
+    ],
+    [
+      "about.html",
+      "WARNING",
+      "Meta description too long (186 chars)"
+    ],
+    [
+      "contact.html",
+      "WARNING",
+      "Title too long (67 chars)"
+    ],
+    [
+      "contact.html",
+      "WARNING",
+      "Meta description too long (166 chars)"
+    ],
+    [
+      "fdi-compliance.html",
+      "WARNING",
+      "Title too long (101 chars)"
+    ],
+    [
+      "fdi-compliance.html",
+      "WARNING",
+      "Meta description too long (166 chars)"
+    ],
+    [
+      "ecb-compliance.html",
+      "WARNING",
+      "Title too long (104 chars)"
+    ],
+    [
+      "ecb-compliance.html",
+      "WARNING",
+      "Meta description too long (195 chars)"
+    ],
+    [
+      "corporate-governance.html",
+      "WARNING",
+      "Title too long (82 chars)"
+    ],
+    [
+      "corporate-governance.html",
+      "WARNING",
+      "Meta description too long (199 chars)"
+    ],
+    [
+      "fema-compliance.html",
+      "WARNING",
+      "Title too long (92 chars)"
+    ],
+    [
+      "fema-compliance.html",
+      "WARNING",
+      "Meta description too long (188 chars)"
+    ],
+    [
+      "rbi-compliance.html",
+      "WARNING",
+      "Title too long (102 chars)"
+    ],
+    [
+      "rbi-compliance.html",
+      "WARNING",
+      "Meta description too long (193 chars)"
+    ],
+    [
+      "board-advisory.html",
+      "WARNING",
+      "Title too long (98 chars)"
+    ],
+    [
+      "board-advisory.html",
+      "WARNING",
+      "Meta description too long (196 chars)"
+    ],
+    [
+      "esg-advisory.html",
+      "WARNING",
+      "Title too long (90 chars)"
+    ],
+    [
+      "esg-advisory.html",
+      "WARNING",
+      "Meta description too long (171 chars)"
+    ],
+    [
+      "odi-compliance.html",
+      "WARNING",
+      "Title too long (99 chars)"
+    ],
+    [
+      "odi-compliance.html",
+      "WARNING",
+      "Meta description too long (192 chars)"
+    ],
+    [
+      "companies-act-compliance.html",
+      "WARNING",
+      "Title too long (95 chars)"
+    ],
+    [
+      "companies-act-compliance.html",
+      "WARNING",
+      "Meta description too long (183 chars)"
+    ],
+    [
+      "nbfc-compliance.html",
+      "WARNING",
+      "Title too long (80 chars)"
+    ],
+    [
+      "nbfc-compliance.html",
+      "WARNING",
+      "Meta description too long (199 chars)"
+    ],
+    [
+      "labour-law-compliance.html",
+      "WARNING",
+      "Title too long (81 chars)"
+    ],
+    [
+      "labour-law-compliance.html",
+      "WARNING",
+      "Meta description too long (194 chars)"
+    ],
+    [
+      "insights.html",
+      "WARNING",
+      "Title too long (80 chars)"
+    ],
+    [
+      "insights.html",
+      "WARNING",
+      "Meta description too long (161 chars)"
+    ],
+    [
+      "india-entry.html",
+      "WARNING",
+      "Title too long (94 chars)"
+    ],
+    [
+      "india-entry.html",
+      "WARNING",
+      "Meta description too long (174 chars)"
+    ],
+    [
+      "csr-advisory.html",
+      "WARNING",
+      "Title too long (91 chars)"
+    ],
+    [
+      "csr-advisory.html",
+      "WARNING",
+      "Meta description too long (176 chars)"
+    ],
+    [
+      "cross-border-advisory.html",
+      "WARNING",
+      "Title too long (117 chars)"
+    ],
+    [
+      "cross-border-advisory.html",
+      "WARNING",
+      "Meta description too long (205 chars)"
+    ],
+    [
+      "private-limited-company-annual-compliance-checklist.html",
+      "WARNING",
+      "Title too long (90 chars)"
+    ],
+    [
+      "private-limited-company-annual-compliance-checklist.html",
+      "WARNING",
+      "Meta description too long (165 chars)"
+    ],
+    [
+      "lei-registration-india-guide.html",
+      "WARNING",
+      "Title too long (75 chars)"
+    ],
+    [
+      "nbfc-rbi-compliance-requirements.html",
+      "WARNING",
+      "Title too long (82 chars)"
+    ],
+    [
+      "corporate-governance-best-practices-india.html",
+      "WARNING",
+      "Title too long (89 chars)"
+    ],
+    [
+      "corporate-governance-best-practices-india.html",
+      "WARNING",
+      "Meta description too long (161 chars)"
+    ],
+    [
+      "fdi-compliance-guide-india.html",
+      "WARNING",
+      "Title too long (84 chars)"
+    ]
+  ],
+  "summary": {
+    "critical_issues": 0,
+    "warnings": 61,
+    "pages_audited": 33
+  }
+}

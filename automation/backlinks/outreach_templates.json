@@ -1,0 +1,18 @@
+{
+  "guest_post": {
+    "subject": "Guest Post Opportunity: [TOPIC] for Your Readers",
+    "body": "Hi [NAME],\n\nI'm [YOUR_NAME] from ComplianceBridge Advisory, a corporate compliance firm based in New Delhi.\n\nI've been following [PUBLICATION] and appreciate your coverage of [TOPIC_AREA]. I noticed your recent article on [RECENT_ARTICLE] and thought our expertise might complement your content.\n\nWe'd like to contribute a guest article on: \"[PROPOSED_TITLE]\"\n\nThis article would cover:\n- [KEY_POINT_1]\n- [KEY_POINT_2]\n- [KEY_POINT_3]\n\nOur team has 30+ years of combined experience in corporate compliance, and we've advised 60+ companies across India and international jurisdictions.\n\nWould you be open to a guest contribution? I'm happy to tailor the topic to your audience's interests.\n\nBest regards,\n[YOUR_NAME]\nComplianceBridge Advisory\n[PHONE] | [EMAIL]"
+  },
+  "resource_page": {
+    "subject": "Resource for Your [TOPIC] Page",
+    "body": "Hi [NAME],\n\nI came across your resource page on [TOPIC] and noticed it covers many valuable guides.\n\nWe've recently published a comprehensive guide that might be a useful addition: \"[ARTICLE_TITLE]\"\n\nThe guide covers:\n- [COVERAGE_POINT_1]\n- [COVERAGE_POINT_2]\n- [COVERAGE_POINT_3]\n\nYou can view it here: [URL]\n\nWould this be a valuable addition to your resource page? It's been well-received by our readers and provides practical, actionable advice for businesses.\n\nNo pressure at all - just thought it might help your audience.\n\nBest,\n[YOUR_NAME]"
+  },
+  "broken_link": {
+    "subject": "Broken Link on Your [TOPIC] Page",
+    "body": "Hi [NAME],\n\nI was browsing your article on [ARTICLE_TOPIC] and noticed a broken link to [BROKEN_URL].\n\nI actually have a relevant resource that could replace it: [YOUR_URL]\n\nIt covers similar content and is regularly updated.\n\nJust thought I'd let you know - your readers might find it useful!\n\nBest,\n[YOUR_NAME]"
+  },
+  "expert_comment": {
+    "subject": "Expert Commentary on [TOPIC]",
+    "body": "Hi [NAME],\n\nI'm [YOUR_NAME], a compliance expert at ComplianceBridge Advisory with 15+ years of experience in corporate law and regulatory compliance in India.\n\nI noticed you're covering [TOPIC]. If you're looking for expert commentary or quotes for future articles, I'd be happy to provide insights on:\n\n- [EXPERTISE_AREA_1]\n- [EXPERTISE_AREA_2]\n- [EXPERTISE_AREA_3]\n\nI've been quoted in [PUBLICATIONS] and can provide timely, authoritative perspectives on regulatory developments.\n\nWould this be helpful for your coverage?\n\nBest regards,\n[YOUR_NAME]"
+  }
+}
