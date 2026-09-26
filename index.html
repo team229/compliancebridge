@@ -85,8 +85,24 @@
         "sameAs": []
     }
     </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "What does ComplianceBridge Advisory do?", "acceptedAnswer": {"@type": "Answer", "text": "We are a Company Secretarial, Corporate Governance and Regulatory Advisory firm in New Delhi. We handle Companies Act / ROC annual filing, FEMA / RBI / FDI / ODI / ECB, NBFC compliance, board advisory, share transfers, labour law and CSR / ESG / BRSR."}},
+            {"@type": "Question", "name": "Who do you work with?", "acceptedAnswer": {"@type": "Answer", "text": "Foreign companies entering India, startups and founders, MSMEs and private companies, and NBFCs / board-led companies. Each gets a different playbook — see Who We Help below."}},
+            {"@type": "Question", "name": "How does an engagement start?", "acceptedAnswer": {"@type": "Answer", "text": "Consultation (same/next day), written proposal with scope, timeline and fixed fee within 48 hours, execution with one checklist and milestone updates, then year-round reminders and advisory."}},
+            {"@type": "Question", "name": "What are the must-track dates for Annual filing, MSME Form I and PAS-6?", "acceptedAnswer": {"@type": "Answer", "text": "Annual filing: AOC-4 within 30 days of AGM, MGT-7 within 60 days of AGM (AGM by 30 Sep). MSME Form I: half-yearly — 31 Oct (Apr–Sep) and 30 Apr (Oct–Mar). PAS-6: half-yearly reconciliation — 29 Nov (Apr–Sep) and 30 May (Oct–Mar)."}},
+            {"@type": "Question", "name": "Do you handle FEMA and RBI alongside Companies Act?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. One team covers Companies Act / ROC plus FEMA, FDI, ODI, ECB, RBI filings, FC-TRS / FC-GPR, FLA and LEI, so cross-border transactions do not split across vendors."}},
+            {"@type": "Question", "name": "How are fees charged?", "acceptedAnswer": {"@type": "Answer", "text": "Fixed fee quoted in writing before work begins. Anything outside scope is flagged before billing. First consultation to scope requirements is free."}}
+        ]
+    }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -127,9 +143,9 @@
     </div>
 
     <!-- Main Navigation -->
-    <nav class="sticky top-0 z-50 bg-primary text-white py-4 shadow-lg">
+    <nav class="sticky top-0 z-50 bg-primary text-white py-4 shadow-lg" aria-label="Primary">
         <div class="container mx-auto px-6 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-serif font-bold tracking-wide">
+            <a href="index.html" class="text-2xl font-serif font-bold tracking-wide" aria-label="ComplianceBridge Advisory — Home">
                 Compliance<span class="text-accent">Bridge</span> Advisory
             </a>
             <div class="hidden lg:flex items-center space-x-1 text-sm font-medium tracking-wider">
@@ -186,7 +202,7 @@
                 </a>
             </div>
             <!-- Mobile Menu Button -->
-            <button id="mobile-menu-button" class="lg:hidden text-white focus:outline-none">
+            <button id="mobile-menu-button" class="lg:hidden text-white focus:outline-none" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
                 <i data-lucide="menu" class="w-6 h-6"></i>
             </button>
         </div>
@@ -342,39 +358,269 @@
         </div>
     </section>
 
-    <!-- Trust Section -->
+    <!-- Who We Help (modelled on ndsavlaa.com playbooks) -->
+    <section id="who-we-help" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="text-accent text-sm font-bold uppercase tracking-widest mb-4">Who We Help</div>
+                <h2 class="text-4xl font-serif text-primary mb-4">Four kinds of client, four different playbooks</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">A foreign entrant and a 200-crore manufacturer do not need the same CS. Find the version of us that fits you.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+                <div class="bg-light-bg p-8 border-t-4 border-accent">
+                    <div class="text-accent mb-5"><i data-lucide="globe" class="w-9 h-9"></i></div>
+                    <h3 class="text-xl font-serif text-primary mb-3">Foreign Companies & India Entry</h3>
+                    <p class="text-gray-600 text-sm mb-5 leading-relaxed">FDI structuring, entry vehicle, and cross-border filings — done right the first time.</p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>India entry & incorporation</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>FDI, FC-GPR / FC-TRS, FLA</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>ECB, ODI, LEI</li>
+                    </ul>
+                    <a href="india-entry.html" class="text-primary font-bold text-sm tracking-wide inline-flex items-center gap-2 hover:text-accent">INDIA ENTRY <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                </div>
+                <div class="bg-light-bg p-8 border-t-4 border-accent">
+                    <div class="text-accent mb-5"><i data-lucide="rocket" class="w-9 h-9"></i></div>
+                    <h3 class="text-xl font-serif text-primary mb-3">Startups & Founders</h3>
+                    <p class="text-gray-600 text-sm mb-5 leading-relaxed">Incorporation to investor-ready records — so diligence is a formality, not a fire drill.</p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>Incorporation & ESOP support</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>Cap table & share transfers</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>Annual ROC hygiene</li>
+                    </ul>
+                    <a href="company-incorporation.html" class="text-primary font-bold text-sm tracking-wide inline-flex items-center gap-2 hover:text-accent">STARTUP DESK <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                </div>
+                <div class="bg-light-bg p-8 border-t-4 border-accent">
+                    <div class="text-accent mb-5"><i data-lucide="factory" class="w-9 h-9"></i></div>
+                    <h3 class="text-xl font-serif text-primary mb-3">MSMEs & Private Companies</h3>
+                    <p class="text-gray-600 text-sm mb-5 leading-relaxed">The calendar handled quietly in the background, so the promoter runs the business.</p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>AOC-4 / MGT-7, DIR-3 KYC</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>MSME Form I, PAS-6</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>Minutes & statutory registers</li>
+                    </ul>
+                    <a href="annual-compliance.html" class="text-primary font-bold text-sm tracking-wide inline-flex items-center gap-2 hover:text-accent">ANNUAL COMPLIANCE <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                </div>
+                <div class="bg-light-bg p-8 border-t-4 border-accent">
+                    <div class="text-accent mb-5"><i data-lucide="landmark" class="w-9 h-9"></i></div>
+                    <h3 class="text-xl font-serif text-primary mb-3">NBFCs & Board-led Companies</h3>
+                    <p class="text-gray-600 text-sm mb-5 leading-relaxed">Board-grade secretarial discipline where a missed filing carries real consequences.</p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>RBI returns & NBFC filings</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>Board advisory & secretarial audit</li>
+                        <li class="flex gap-2"><span class="w-1.5 h-1.5 mt-1.5 bg-accent rounded-full shrink-0"></span>CSR / ESG / BRSR</li>
+                    </ul>
+                    <a href="nbfc-compliance.html" class="text-primary font-bold text-sm tracking-wide inline-flex items-center gap-2 hover:text-accent">NBFC & GOVERNANCE <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engagement Model -->
+    <section id="engagement-model" class="py-24 bg-primary text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="text-accent text-sm font-bold uppercase tracking-widest mb-4">Engagement Model</div>
+                <h2 class="text-4xl font-serif mb-4">How an engagement runs</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Four stages, in this order, every time — so you always know what happens next and what it costs.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="bg-white/5 border border-white/10 p-8">
+                    <div class="text-accent font-serif text-3xl mb-4">01</div>
+                    <h3 class="text-xl font-serif mb-3">Consultation</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">Tell us the situation. We ask what matters and tell you plainly what you need — and what you don't.</p>
+                    <p class="text-xs uppercase tracking-widest text-accent">Same / next day</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-8">
+                    <div class="text-accent font-serif text-3xl mb-4">02</div>
+                    <h3 class="text-xl font-serif mb-3">Written Proposal</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">Scope, timeline and fixed fee in writing. Anything outside it is flagged before billing, not on the invoice.</p>
+                    <p class="text-xs uppercase tracking-widest text-accent">Within 48 hours</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-8">
+                    <div class="text-accent font-serif text-3xl mb-4">03</div>
+                    <h3 class="text-xl font-serif mb-3">Execution</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">One checklist, one owner. Filings, minutes and registers done end-to-end with milestone updates.</p>
+                    <p class="text-xs uppercase tracking-widest text-accent">Per agreed timeline</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-8">
+                    <div class="text-accent font-serif text-3xl mb-4">04</div>
+                    <h3 class="text-xl font-serif mb-3">Ongoing Support</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">Reminders before deadlines, notices handled when they arrive, advisory calls when decisions need a second opinion.</p>
+                    <p class="text-xs uppercase tracking-widest text-accent">Year after year</p>
+                </div>
+            </div>
+            <p class="text-center text-gray-400 text-sm mt-10">Every client hears from us before a deadline, not after it. <a href="#compliance-calendar" class="text-accent hover:underline">See the compliance calendar below</a>.</p>
+        </div>
+    </section>
+
+    <!-- Compliance Calendar: Annual filing + MSME + PAS-6 only -->
+    <section id="compliance-calendar" class="py-24 bg-light-bg">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center mb-12">
+                <div class="text-accent text-sm font-bold uppercase tracking-widest mb-4">Compliance Calendar</div>
+                <h2 class="text-4xl font-serif text-primary mb-4">Annual Filing, MSME & PAS-6 — Key Dates</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Only the three calendars most clients miss. AGM-linked dates assume AGM on 30 Sep — adjust if your AGM is earlier.</p>
+            </div>
+            <div class="overflow-x-auto bg-white shadow-sm">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="bg-primary text-white">
+                            <th class="text-left py-4 px-6 font-medium">Filing</th>
+                            <th class="text-left py-4 px-6 font-medium">Form</th>
+                            <th class="text-left py-4 px-6 font-medium">Due Date</th>
+                            <th class="text-left py-4 px-6 font-medium">Who Applies</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="bg-orange-50"><td colspan="4" class="py-3 px-6 font-bold text-primary text-xs uppercase tracking-widest">Annual Filing (Companies Act / ROC)</td></tr>
+                        <tr>
+                            <td class="py-4 px-6">Financial Statements Filing</td>
+                            <td class="py-4 px-6">AOC-4 / AOC-4 CFS</td>
+                            <td class="py-4 px-6">30 days from AGM (29 Oct if AGM 30 Sep)</td>
+                            <td class="py-4 px-6">All companies</td>
+                        </tr>
+                        <tr class="bg-light-bg">
+                            <td class="py-4 px-6">Annual Return Filing</td>
+                            <td class="py-4 px-6">MGT-7 / MGT-7A</td>
+                            <td class="py-4 px-6">60 days from AGM (29 Nov if AGM 30 Sep)</td>
+                            <td class="py-4 px-6">All companies (7A for OPC / Small Co.)</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-6">Auditor Appointment</td>
+                            <td class="py-4 px-6">ADT-1</td>
+                            <td class="py-4 px-6">15 days from AGM</td>
+                            <td class="py-4 px-6">Companies appointing / re-appointing auditor</td>
+                        </tr>
+                        <tr class="bg-orange-50"><td colspan="4" class="py-3 px-6 font-bold text-primary text-xs uppercase tracking-widest">MSME (Half-Yearly)</td></tr>
+                        <tr>
+                            <td class="py-4 px-6">MSME Dues Return (Apr–Sep period)</td>
+                            <td class="py-4 px-6">MSME Form I</td>
+                            <td class="py-4 px-6">31 Oct</td>
+                            <td class="py-4 px-6">Cos with MSME dues outstanding &gt;45 days</td>
+                        </tr>
+                        <tr class="bg-light-bg">
+                            <td class="py-4 px-6">MSME Dues Return (Oct–Mar period)</td>
+                            <td class="py-4 px-6">MSME Form I</td>
+                            <td class="py-4 px-6">30 Apr</td>
+                            <td class="py-4 px-6">Cos with MSME dues outstanding &gt;45 days</td>
+                        </tr>
+                        <tr class="bg-orange-50"><td colspan="4" class="py-3 px-6 font-bold text-primary text-xs uppercase tracking-widest">PAS-6 — Reconciliation of Share Capital (Half-Yearly)</td></tr>
+                        <tr>
+                            <td class="py-4 px-6">Share Capital Reconciliation (Apr–Sep)</td>
+                            <td class="py-4 px-6">PAS-6</td>
+                            <td class="py-4 px-6">29 Nov (60 days from half-year end)</td>
+                            <td class="py-4 px-6">Unlisted companies with demat shares</td>
+                        </tr>
+                        <tr class="bg-light-bg">
+                            <td class="py-4 px-6">Share Capital Reconciliation (Oct–Mar)</td>
+                            <td class="py-4 px-6">PAS-6</td>
+                            <td class="py-4 px-6">30 May (60 days from half-year end)</td>
+                            <td class="py-4 px-6">Unlisted companies with demat shares</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-xs text-gray-500 mt-4">Dates indicative; MCA may extend via circulars. DIR-3 KYC (30 Sep) and DPT-3 (30 Sep) run alongside — covered under <a href="annual-compliance.html" class="text-accent hover:underline">Annual Compliance</a>.</p>
+        </div>
+    </section>
+
+    <!-- Why Clients Stay: 6 reasons, no filler -->
     <section class="py-24 bg-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <div class="text-accent text-sm font-bold uppercase tracking-widest mb-4">Why Clients Trust Us</div>
-                <h2 class="text-4xl font-serif text-primary">Professional Excellence & Integrity</h2>
+                <div class="text-accent text-sm font-bold uppercase tracking-widest mb-4">Why Clients Stay?</div>
+                <h2 class="text-4xl font-serif text-primary">Six reasons, no filler</h2>
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10">
                 <div class="flex gap-4">
                     <div class="bg-orange-100 text-accent font-serif w-8 h-8 flex items-center justify-center rounded-sm shrink-0">1</div>
-                    <p class="text-gray-700">30+ years of combined professional experience</p>
+                    <p class="text-gray-700 text-sm leading-relaxed"><strong>Senior CS on every file.</strong> Partner-reviewed drafts, not junior-only filings.</p>
                 </div>
                 <div class="flex gap-4">
                     <div class="bg-orange-100 text-accent font-serif w-8 h-8 flex items-center justify-center rounded-sm shrink-0">2</div>
-                    <p class="text-gray-700">Deep expertise across company law, financial regulations, labour laws, and CSR</p>
+                    <p class="text-gray-700 text-sm leading-relaxed"><strong>Reminders before, not after.</strong> Calendar-tracked AOC-4, MGT-7, MSME I and PAS-6 dates with one checklist.</p>
                 </div>
                 <div class="flex gap-4">
                     <div class="bg-orange-100 text-accent font-serif w-8 h-8 flex items-center justify-center rounded-sm shrink-0">3</div>
-                    <p class="text-gray-700">Experience advising Indian and cross-border entities</p>
+                    <p class="text-gray-700 text-sm leading-relaxed"><strong>Right-first-time filings.</strong> Forms, attachments and DSCs checked pre-upload to avoid resubmission.</p>
                 </div>
                 <div class="flex gap-4">
                     <div class="bg-orange-100 text-accent font-serif w-8 h-8 flex items-center justify-center rounded-sm shrink-0">4</div>
-                    <p class="text-gray-700">Strong transaction and execution capability</p>
+                    <p class="text-gray-700 text-sm leading-relaxed"><strong>Companies Act + FEMA + RBI in one team.</strong> No split vendors for cross-border and ROC work.</p>
                 </div>
                 <div class="flex gap-4">
                     <div class="bg-orange-100 text-accent font-serif w-8 h-8 flex items-center justify-center rounded-sm shrink-0">5</div>
-                    <p class="text-gray-700">High standards of confidentiality, accuracy, and professional ethics</p>
+                    <p class="text-gray-700 text-sm leading-relaxed"><strong>Fixed fee in writing.</strong> Scope and fee within 48 hours; out-of-scope flagged before billing.</p>
                 </div>
                 <div class="flex gap-4">
                     <div class="bg-orange-100 text-accent font-serif w-8 h-8 flex items-center justify-center rounded-sm shrink-0">6</div>
-                    <p class="text-gray-700">Preventive, practical, and transaction-oriented approach</p>
+                    <p class="text-gray-700 text-sm leading-relaxed"><strong>Audit-ready records.</strong> Minutes, registers and challans maintained for diligence and bank review.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Record -->
+    <section class="py-20 bg-gray-100 border-y border-gray-200">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <div class="text-accent text-sm font-bold uppercase tracking-widest mb-4">Our Record</div>
+                <h2 class="text-4xl font-serif text-primary">Work that shows up in filings, not adjectives</h2>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-gray-300">
+                <div class="p-4">
+                    <div class="text-4xl font-serif text-primary mb-2">30+</div>
+                    <div class="text-xs uppercase tracking-widest text-gray-500">Years Combined Experience</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-serif text-primary mb-2">60+</div>
+                    <div class="text-xs uppercase tracking-widest text-gray-500">Companies Advised</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-serif text-primary mb-2">22</div>
+                    <div class="text-xs uppercase tracking-widest text-gray-500">Service Lines Covered</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-serif text-primary mb-2">100%</div>
+                    <div class="text-xs uppercase tracking-widest text-gray-500">Calendar-Driven Filing Discipline</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faqs" class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <div class="text-center mb-12">
+                <div class="text-accent text-sm font-bold uppercase tracking-widest mb-4">FAQs</div>
+                <h2 class="text-4xl font-serif text-primary mb-4">Frequently asked questions</h2>
+                <p class="text-gray-600">Short answers. For anything else, <a href="contact.html" class="text-accent hover:underline">talk to an advisor</a>.</p>
+            </div>
+            <div class="space-y-4">
+                <details class="bg-light-bg p-6 group" open>
+                    <summary class="font-serif text-primary text-lg cursor-pointer list-none flex justify-between items-center">What does ComplianceBridge Advisory do?<span class="text-accent text-2xl leading-none group-open:rotate-45 transition-transform">+</span></summary>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-3">Company Secretarial, Corporate Governance and Regulatory Advisory — Companies Act / ROC, FEMA / RBI / FDI / ODI / ECB, NBFC, board advisory, share transfers, labour law and CSR / ESG / BRSR.</p>
+                </details>
+                <details class="bg-light-bg p-6 group">
+                    <summary class="font-serif text-primary text-lg cursor-pointer list-none flex justify-between items-center">Who do you work with?<span class="text-accent text-2xl leading-none group-open:rotate-45 transition-transform">+</span></summary>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-3">Foreign companies entering India, startups, MSMEs / private companies, and NBFCs / board-led companies. See <a href="#who-we-help" class="text-accent hover:underline">Who We Help</a> for each playbook.</p>
+                </details>
+                <details class="bg-light-bg p-6 group">
+                    <summary class="font-serif text-primary text-lg cursor-pointer list-none flex justify-between items-center">How does an engagement start?<span class="text-accent text-2xl leading-none group-open:rotate-45 transition-transform">+</span></summary>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-3">Consultation, then a written proposal (scope, timeline, fixed fee) within 48 hours. Execution follows with one checklist and milestone updates. See <a href="#engagement-model" class="text-accent hover:underline">Engagement Model</a>.</p>
+                </details>
+                <details class="bg-light-bg p-6 group">
+                    <summary class="font-serif text-primary text-lg cursor-pointer list-none flex justify-between items-center">What are the must-track dates for Annual filing, MSME I and PAS-6?<span class="text-accent text-2xl leading-none group-open:rotate-45 transition-transform">+</span></summary>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-3">AOC-4: 30 days from AGM. MGT-7: 60 days from AGM. MSME Form I: 31 Oct and 30 Apr. PAS-6: 29 Nov and 30 May. Full table in <a href="#compliance-calendar" class="text-accent hover:underline">Compliance Calendar</a>.</p>
+                </details>
+                <details class="bg-light-bg p-6 group">
+                    <summary class="font-serif text-primary text-lg cursor-pointer list-none flex justify-between items-center">Do you handle FEMA / RBI with Companies Act?<span class="text-accent text-2xl leading-none group-open:rotate-45 transition-transform">+</span></summary>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-3">Yes — one team for ROC plus FDI, FC-GPR / FC-TRS, FLA, ECB, ODI, LEI and RBI filings. See <a href="fema-compliance.html" class="text-accent hover:underline">FEMA Compliance</a> and <a href="rbi-compliance.html" class="text-accent hover:underline">RBI Compliance</a>.</p>
+                </details>
+                <details class="bg-light-bg p-6 group">
+                    <summary class="font-serif text-primary text-lg cursor-pointer list-none flex justify-between items-center">How are fees charged?<span class="text-accent text-2xl leading-none group-open:rotate-45 transition-transform">+</span></summary>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-3">Fixed fee quoted in writing before work. Out-of-scope work is flagged before billing. First scoping consultation is free — <a href="contact.html" class="text-accent hover:underline">schedule a call</a>.</p>
+                </details>
             </div>
         </div>
     </section>
@@ -407,16 +653,20 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
                 <!-- Brand Column -->
                 <div class="lg:col-span-2">
-                    <a href="index.html" class="text-white text-xl font-serif font-bold mb-4 block">
+                    <a href="index.html" class="text-white text-xl font-serif font-bold mb-4 block" aria-label="ComplianceBridge Advisory — Home">
                         Compliance<span class="text-accent">Bridge</span> Advisory
                     </a>
                     <p class="leading-relaxed mb-6 text-sm">
                         A full-service Company Secretarial, Corporate Governance, and Regulatory Advisory Firm with over 30 years of combined professional experience. Trusted by 60+ companies across India and international jurisdictions.
                     </p>
-                    <div class="flex items-center gap-4 mb-6">
+                    <div class="flex items-center gap-4 mb-3">
                         <a href="tel:+918860307807" class="flex items-center gap-2 hover:text-white transition-colors">
                             <i data-lucide="phone" class="w-4 h-4 text-accent"></i> +91 8860307807
                         </a>
+                    </div>
+                    <div class="flex items-center gap-2 mb-3">
+                        <i data-lucide="mail" class="w-4 h-4 text-accent"></i>
+                        <a href="mailto:info@compliancebridgeadvisory.com" class="hover:text-white transition-colors">info@compliancebridgeadvisory.com</a>
                     </div>
                     <div class="flex items-center gap-2 mb-6">
                         <i data-lucide="map-pin" class="w-4 h-4 text-accent"></i>
@@ -461,6 +711,10 @@
                     <ul class="space-y-2.5">
                         <li><a href="about.html" class="hover:text-white transition-colors">About the Firm</a></li>
                         <li><a href="practice-areas.html" class="hover:text-white transition-colors">All Practice Areas</a></li>
+                        <li><a href="index.html#who-we-help" class="hover:text-white transition-colors">Who We Help</a></li>
+                        <li><a href="index.html#engagement-model" class="hover:text-white transition-colors">Engagement Model</a></li>
+                        <li><a href="index.html#compliance-calendar" class="hover:text-white transition-colors">Compliance Calendar</a></li>
+                        <li><a href="index.html#faqs" class="hover:text-white transition-colors">FAQs</a></li>
                         <li><a href="industries.html" class="hover:text-white transition-colors">Industries Served</a></li>
                         <li><a href="insights.html" class="hover:text-white transition-colors">Insights & Updates</a></li>
                         <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
@@ -488,6 +742,8 @@
                     <a href="contact.html" class="hover:text-white transition-colors">Terms of Service</a>
                     <span>|</span>
                     <a href="contact.html" class="hover:text-white transition-colors">Disclaimer</a>
+                    <span>|</span>
+                    <a href="sitemap.xml" class="hover:text-white transition-colors">Sitemap</a>
                 </div>
             </div>
         </div>
@@ -500,7 +756,8 @@
         const mobileMenu = document.getElementById('mobile-menu');
 
         mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+            const isHidden = mobileMenu.classList.toggle('hidden');
+            mobileMenuButton.setAttribute('aria-expanded', String(!isHidden));
         });
     </script>
 </body>
